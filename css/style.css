@@ -522,6 +522,11 @@ _______________________________________________________*/
 
 /*----- Footer Section -----*/
 footer.bg-pattern{background-position: center 125px; padding-bottom: 50px;}
+.footer-logo {
+  background-color: #042021;
+  padding: 10px;
+  border-radius: 10px;
+}
 .footer-logo img{transition: all 400ms ease;}
 .footer-logo img:hover {opacity: 0.5;}
 .footer {border-bottom: 1px solid; padding-bottom: 50px;}
