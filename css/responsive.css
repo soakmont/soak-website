@@ -270,7 +270,7 @@
 @media(max-width: 374px){
 	/*----- Home Page -----*/
   .graph-logo img {
-    max-width: 80px;
+    display:none;
   }
 	.listtopie-svg {width: 280px; height: 280px;}
 	.token-graph-right{height: 300px;}
