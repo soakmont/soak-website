@@ -3,7 +3,7 @@ $(function() {
  "use strict";
     /* -------- preloader ------- */
     $(window).on("load", function() {
-        $('#preloader').delay(2000).fadeOut(500);
+        $('#preloader').delay(1000).fadeOut(500);
     });
     /* -------- preloader End ------- */
 
@@ -22,7 +22,7 @@ $(function() {
         e.preventDefault();
         var target = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: ($(target).offset().top)
+            scrollTop: ($(target).offset().top - 100)
         }, 1000);
     });
     /*----- Top scrolling End -----*/
