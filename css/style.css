@@ -214,6 +214,9 @@ ul.check-list li p{padding-left: 10px; width: calc(100% - 18px); float: left;}
 .token-graph {max-width: 400px; position: relative; margin: 0 auto;}
 .token-graph-right {width: 400px; height: 400px; float: right;}
 .graph-logo {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.graph-logo img {
+  max-width: 80px;
+}
 /*----- Token Sale Section End -----*/
 
 /*----- Blog Section -----*/

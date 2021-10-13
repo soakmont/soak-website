@@ -105,32 +105,6 @@ $(function() {
     }
     /*end Roadmap slider*/
 
-    /*Blog slider*/
-    if ($(".blog-slider").length > 0) {
-        $(".blog-slider").owlCarousel({
-            loop: true,
-            dots: true,
-            autoplay:true,
-            autoplayTimeout:5000,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                420: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                1200: {
-                    items: 3
-                },
-            }
-        });
-    }
-    /*end Blog slider*/
-
     /* Team slider*/
     if ($(".team-slider").length > 0) {
         $(".team-slider").owlCarousel({
@@ -164,9 +138,9 @@ $(function() {
     if ($("#tokensale-part").length > 0) {
     function tokan_graph () {
         var scrollDistance = $(window).scrollTop();
-        var scrollDistance1 = $('#tokensale-part').offset().top - 100;
+        var scrollDistance1 = $('#tokensale-part').offset().top - 140;
 
-        if ( scrollDistance >= (scrollDistance1 - 100) && scrollDistance <= (scrollDistance1 + 100)) {
+        if ( scrollDistance >= (scrollDistance1 - 140) && scrollDistance <= (scrollDistance1 + 140)) {
             $('.donut').listtopie({
               startAngle:270,
               strokeWidth:5,

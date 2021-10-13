@@ -269,7 +269,10 @@
 
 @media(max-width: 374px){
 	/*----- Home Page -----*/
+  .graph-logo img {
+    max-width: 80px;
+  }
 	.listtopie-svg {width: 280px; height: 280px;}
 	.token-graph-right{height: 300px;}
-	.listtopie-initialized {display: flex; justify-content: center;
+	.listtopie-initialized {display: flex; justify-content: center;}
 }
