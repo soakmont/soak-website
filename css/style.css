@@ -38,7 +38,7 @@
 * FOOTER
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /*_______________________________________________________
 // BASIC STYLE  //----------------------------
@@ -47,12 +47,12 @@ _______________________________________________________*/
 /*---------- General Style ------------*/
 *{box-sizing: border-box;}
 body, html {height: 100%; margin: 0; padding: 0;}
-body{line-height: 24px; font-size: 14px; font-family: 'Lato', sans-serif; font-weight: 400; letter-spacing: 0px;}
+body{line-height: 24px; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; letter-spacing: 0px;}
 img {height: auto; max-width: 100%;}
 a, a:focus, button:focus {outline: none !important;  text-decoration: none; box-shadow: unset !important;}
 a:hover { text-decoration: none;}
 ul, li, label, span {list-style: none; padding: 0; margin: 0;}
-p{padding: 0; margin: 0;}
+p{padding: 0 0 10px; margin: 0; line-height: 1.4; font-weight: normal;}
 input:focus {outline: unset; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);}
 .transition, .btn, .form-control, a, input, button{transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -webkit-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s;}
 .container{max-width: 1230px;}
@@ -61,8 +61,8 @@ input:focus {outline: unset; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);}
 .flex-align{display: flex; align-items: center;}
 .flex-bottom{display: flex; align-items: flex-end;}
 .justify-center{justify-content: center; display: flex;}
-.sub-heading {text-transform: uppercase; font-family: 'Poppins', sans-serif; padding-bottom: 3px;}
-.heading-title {font-size: 40px; font-weight: 600; padding-bottom: 18px;}
+.sub-heading {font-size: 14px; font-weight: normal; text-transform: uppercase; font-family: 'Poppins', sans-serif;}
+.heading-title {margin-bottom:0;line-height: 1;font-size: 32px; font-weight: bold;text-transform: uppercase;}
 .heading-des {max-width: 580px; margin: 0 auto;}
 .heading-title-2 {font-size: 45px; font-weight: 600;}
 .sub-heading-2 {font-size: 30px; font-weight: 600;}
@@ -73,6 +73,8 @@ input:focus {outline: unset; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);}
 .top-scroll.fixed{visibility: visible; opacity: 1;}
 
 .ptb-100{padding-top: 100px; padding-bottom: 100px;}
+
+.ptb-80{padding-top: 80px; padding-bottom: 80px;}
 
 .pt-10{padding-top: 10px;}
 .pt-15{padding-top: 15px;}
@@ -98,15 +100,19 @@ input:focus {outline: unset; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);}
 .mb-30{margin-bottom: 30px;}
 .mb-45{margin-bottom: 45px;}
 
+.emphasis{font-weight: bold;color: #e1b77e; }
+
 /* - Headings Style   //---------------- */
 h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; font-family: 'Poppins', sans-serif; font-weight: 700}
 
 /*----- Button Style -----*/
-.btn { font-family: 'Poppins', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border: 1px solid; padding: 14px 22px; border-radius: 5px; position: relative; -webkit-transform: translateY(0px); transform: translateY(0px);}
+.btn { font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; border: 1px solid; padding: 12px 20px; border-radius: 4px; position: relative; -webkit-transform: translateY(0px); transform: translateY(0px);}
 .btn:hover{-webkit-transform: translateY(-5px); transform: translateY(-5px);}
 .btn:before { content: ""; pointer-events: none; position: absolute; z-index: -1; top: 100%; left: 5%; height: 10px; width: 90%; opacity: 0; -webkit-transition-property: transform, opacity; transition-property: transform, opacity; transition: all 400ms ease;}
 .btn.btn-2 {border-radius: 50px;}
 .btn:hover:before {opacity: 1; -webkit-transform: translateY(5px); transform: translateY(5px);}
+
+.btn.small { font-size: 14px; padding: 12px 16px; }
 .owl-dots {padding-top: 50px; text-align: center;}
 .owl-dot {width: 12px; height: 12px; margin: 0px 5px; border-radius: 100%;}
 
@@ -120,7 +126,7 @@ textarea.form-control {min-height: 170px;}
 #preloader {position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background-size: 80px;}
 
 /*----- Header -----*/
-header {padding: 40px 0px; position: fixed; width: 100%; top: 0; left: 0; z-index: 999;}
+header {padding: 20px 0px; position: fixed; width: 100%; top: 0; left: 0; z-index: 999; background-color: rgba(3, 31, 34, 0.75);}
 .logo img:hover {opacity: 0.5;}
 .menu {display: flex; align-items: center; justify-content: flex-end;}
 .menu ul li{display: inline-block; padding: 0px 26px; position: relative;}    
@@ -150,7 +156,7 @@ header.fixed {padding: 15px 0px;}
 _______________________________________________________*/
 /*----- Home Banner -----*/
 .home-banner {padding: 220px 0px 140px 0px; overflow: hidden; background: url(../images/banner-bg.png) no-repeat center / cover; background-attachment: fixed;}
-.banner-heading {font-size: 50px; padding-bottom: 10px;}
+.banner-heading {font-size: 44px; text-transform: uppercase;font-weight: normal;}
 .banner-des {font-size: 16px; margin-bottom: 30px;}
 .banner-img {animation: MoveUpDown 2s linear infinite;}
 @keyframes MoveUpDown{0%{position: relative; top:0;}50%{position: relative; top:10px;} 100%{position: relative; top:0;}}
@@ -183,7 +189,7 @@ ul.check-list li p{padding-left: 10px; width: calc(100% - 18px); float: left;}
 /*----- Timeline Section -----*/
 .main-roadmap{overflow: hidden;}
 .main-roadmap .owl-carousel .owl-stage-outer {overflow: unset;}
-.h-border {border-bottom: 3px dashed; margin-top: 375px;}
+.h-border {border-bottom: 3px dashed; margin-top: 420px;}
 .date-title { font-size: 18px; font-weight: 700; position: absolute; top: -60px; width: 100%; left: 0;}
 .small-round {width: 38px; height: 38px; border: 2px solid; border-radius: 100%; position: absolute; top: -20px; left: 50%; transform: translate(-50%); z-index: 1;}
 .small-round span {width: 24px; height: 24px; border-radius: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 1;}
@@ -198,10 +204,16 @@ ul.check-list li p{padding-left: 10px; width: calc(100% - 18px); float: left;}
 
 /*----- Team Section -----*/
 .team-part {overflow: hidden;}
-.team-img {width: 156px; height: 156px; border-radius: 100%; overflow: hidden; border: 5px solid; float: left; transition: all 400ms ease;}
-.team-des {width: calc(100% - 156px); float: left; padding-left: 20px;}
-.member-name {font-size: 20px; padding-bottom: 5px;}
-.team-box ul li {display: inline-block; padding: 0px 15px;}
+.team-img {width: 156px; height: 156px; overflow: hidden; transition: all 400ms ease;}
+.team-des {}
+.team-member {
+  padding: 4px 20px;
+  margin-bottom: 16px;
+}
+.member-name {text-transform: uppercase; color: #e1b77e; font-size: 20px; padding-bottom: 5px; font-weight: bold;}
+.member-des {}
+ul.socials a {color: #e1b77e !important;}
+.team-box ul li {display: inline-block; padding: 0px 0px 15px;}
 .team-box ul li:first-child{padding-left: 0;}
 .team-box ul li:last-child{padding-right: 0;}
 .team-part{overflow: hidden;}
@@ -251,7 +263,7 @@ ul.check-list li p{padding-left: 10px; width: calc(100% - 18px); float: left;}
 .Frequently-tabs li a:before{content: ""; position: absolute; bottom: -10px; left: 50%; transform: translate(-50%); width: 0; height: 2px; transition: all 400ms ease;}
 .Frequently-tabs li a.active:before{width: 80%;}
 .faq-tab {max-width: 540px;}
-.qus-title {font-size: 20px; font-family: 'Lato', sans-serif; font-weight: 700;}
+.qus-title {font-size: 20px; font-family: 'Poppins', sans-serif; font-weight: 700;}
 /*----- FAQ Section End -----*/
 
 /*_______________________________________________________
@@ -398,7 +410,7 @@ _______________________________________________________*/
 .archives ul li a:before{content: "\f105"; font-family: fontawesome; position: absolute; left: 0;}
 .blog-list-box {padding-bottom: 50px;}
 .blog-list-img {border-radius: 5px; overflow: hidden; margin-bottom: 20px;}
-.blog-list-title {font-size: 24px; font-family: 'Lato', sans-serif; padding-bottom: 10px; display: inline-block;}
+.blog-list-title {font-size: 24px; font-family: 'Poppins', sans-serif; padding-bottom: 10px; display: inline-block;}
 .blog-list-content ul{padding-bottom: 20px;}
 .blog-list-content ul li{display: inline-block; padding: 0px 20px; position: relative;}
 .blog-list-content ul li:first-child {padding-left: 0;}
@@ -419,7 +431,7 @@ _______________________________________________________*/
 .blog-detail-content ul li:first-child{padding-left: 0;}
 .blog-detail-content ul li:before{content: ""; position: absolute; top: 8px; right: 0; width: 2px; height: 10px;}
 .blog-detail-content ul li:last-child:before{content: unset;}
-.blog-detail-content h2{font-size: 28px; font-family: 'Lato', sans-serif; padding-bottom: 15px;}
+.blog-detail-content h2{font-size: 28px; font-family: 'Poppins', sans-serif; padding-bottom: 15px;}
 .blog-detail-content p{padding-bottom: 25px;}
 .blog-detail-content blockquote{padding: 30px 40px; font-size: 16px; font-style: italic; border-left: 5px solid; border-radius: 5px; margin: 0; margin-bottom: 25px;}
 .blog-detail-tag span{font-size: 18px; font-weight: 700;}
@@ -524,6 +536,10 @@ _______________________________________________________*/
 .token-distribut .token-graph-right{float: unset; margin: auto; height: unset;}
 
 /*----- Footer Section -----*/
+footer {
+  background-color: rgba(3, 31, 34, 0.75);
+	background: url(../images/img-background-footer.png) center no-repeat #042021;
+}
 footer.bg-pattern{background-position: center 125px; padding-bottom: 50px;}
 .footer-logo {
   background-color: #042021;
@@ -532,17 +548,18 @@ footer.bg-pattern{background-position: center 125px; padding-bottom: 50px;}
 }
 .footer-logo img{transition: all 400ms ease;}
 .footer-logo img:hover {opacity: 0.5;}
-.footer {border-bottom: 1px solid; padding-bottom: 50px;}
+.footer {border-bottom: 1px solid;}
 .footer-icon ul li{display: inline-block; padding: 0px 5px;}
 .footer-icon ul li:first-child{padding-left: 0;}
-.footer-icon ul li a{display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 100%; font-size: 16px;}
+.footer-icon ul li a{display: block; width: 60px; height: 60px; line-height: 60px; text-align: center; border-radius: 100%; font-size: 16px;}
+.footer-icon ul li a i{line-height: 60px;}
 .footer-link ul{display: inline-block; width: 100%;}
 .footer-link ul li{width: 33.33%; float: left; padding-bottom: 10px;}
 .subscribe{position: relative;}
 .subscribe label{font-size: 18px; padding-bottom: 15px;}
 .subscribe .form-control{height: 50px; border: 0; border-radius: 5px; padding-left: 25px; padding-right: 125px;}
 .subscribe .submit{font-size: 16px; font-weight: 700; position: absolute; bottom: 0; right: 0; height: 50px; border: 0; width: 115px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;} 
-.copyright{padding-top: 50px;}
+.copyright{text-align: center;}
 .copyright p a{text-decoration: underline;}
 .copyright ul{text-align: right;}
 .copyright ul li{display: inline-block; padding: 0px 25px; position: relative;}
@@ -554,4 +571,65 @@ footer.bg-pattern{background-position: center 125px; padding-bottom: 50px;}
 
 .strikethrough {
   text-decoration: line-through;
+}
+
+.separator {
+  width: 240px;
+  height: 2px;
+  margin: 20px 0px;
+  background-color: #38676a;
+  display: inline-block;
+}
+
+.separator.light {
+  background-color: #45797c;
+}
+
+.separator.light2 {
+  background-color: #d0ddde;
+}
+
+.card {
+  border-radius: 24px;
+  padding: 48px;
+}
+
+.card .sub-heading {
+  color: #45797c;
+}
+
+.card .heading-title {
+  color: #e1b77e;
+}
+
+.card {
+  color: #042022 !important;
+}
+
+.card.big-card {
+  background: url('../images/img-bg-big-card.jpg') center no-repeat #fff;
+  background-size: cover;
+}
+
+.card.card-1 {
+  background: url('../images/img-bg-card-01.png') center no-repeat #fff;
+  background-size: cover;
+}
+
+.card.card-2 {
+  background: url('../images/img-bg-card-02.png') center no-repeat #fff;
+  background-size: cover;
+}
+
+ul.roadmap {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.roadmap li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e1b77e; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  padding-bottom: 4px;
 }
