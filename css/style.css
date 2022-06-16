@@ -1,8 +1,8 @@
-@import url("../css/font-awesome.min.css");
-@import url("../css/bootstrap.min.css");
-@import url("../css/owl.carousel.css");
-@import url("../css/jquery.listtopie.css");
-@import url("../css/animations.css");
+@import url('../css/font-awesome.min.css');
+@import url('../css/bootstrap.min.css');
+@import url('../css/owl.carousel.css');
+@import url('../css/jquery.listtopie.css');
+@import url('../css/animations.css');
 
 /* 
 * Google Fonts
@@ -38,7 +38,7 @@
 * FOOTER
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /*_______________________________________________________
 // BASIC STYLE  //----------------------------
@@ -57,7 +57,7 @@ html {
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
 }
@@ -129,7 +129,7 @@ button {
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .heading-title {
   margin-bottom: 0;
@@ -196,6 +196,9 @@ button {
 }
 .pt-25 {
   padding-top: 25px;
+}
+.pt-45 {
+  padding-top: 45px;
 }
 .pt-100 {
   padding-top: 100px;
@@ -266,13 +269,13 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 
 /*----- Button Style -----*/
 .btn {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -289,7 +292,7 @@ h6 {
   transform: translateY(-5px);
 }
 .btn:before {
-  content: "";
+  content: '';
   pointer-events: none;
   position: absolute;
   z-index: -1;
@@ -392,7 +395,7 @@ header {
   padding: 9px 30px;
 }
 .menu > ul > li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 20px;
   left: 0;
@@ -411,7 +414,7 @@ header {
   z-index: 1;
 }
 .opener:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 1px;
@@ -420,7 +423,7 @@ header {
   transform: translateY(-50%);
 }
 .opener:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 8px;
@@ -445,7 +448,7 @@ header {
   left: 50%;
   width: 100%;
   height: 2px;
-  content: "";
+  content: '';
   transition: all 400ms ease;
 }
 .menu-toggle span {
@@ -665,7 +668,7 @@ ul.check-list li p {
   margin-left: -1px;
 }
 .v-row:before {
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -706,12 +709,14 @@ ul.check-list li p {
   height: 156px;
   overflow: hidden;
   transition: all 400ms ease;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
+  text-align: center;
 }
 
 .team-img img {
   border-radius: 10px;
   border: 4px solid white;
+  display: inline-block;
 }
 .team-des {
 }
@@ -758,7 +763,7 @@ ul.socials a {
   padding-left: 40px;
 }
 .token-graphic-detail ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 4px;
   left: 0;
@@ -798,7 +803,7 @@ ul.socials a {
   position: relative;
 }
 .blog-img a:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -834,7 +839,7 @@ ul.socials a {
   padding-left: 0;
 }
 .blog-date li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 8px;
   right: 0;
@@ -889,7 +894,7 @@ ul.socials a {
   display: block;
 }
 .Frequently-tabs li a:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -906,7 +911,7 @@ ul.socials a {
 }
 .qus-title {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 /*----- FAQ Section End -----*/
@@ -951,7 +956,7 @@ _______________________________________________________*/
 }
 .coin-start {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
 }
 .coin-head {
@@ -975,7 +980,7 @@ _______________________________________________________*/
 }
 .coins-counter-loop li:before,
 .coins-counter-loop li:after {
-  content: "";
+  content: '';
   position: absolute;
   right: -4px;
   width: 5px;
@@ -997,12 +1002,12 @@ _______________________________________________________*/
   line-height: 75px;
   font-size: 35px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: block;
   border-radius: 5px;
 }
 .coins-counter-loop li .coin-day {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   padding-top: 8px;
   display: block;
@@ -1202,18 +1207,14 @@ _______________________________________________________*/
   opacity: 0.4;
 }
 .team-member-img:after {
-  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
-    translate3d(0, -101%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -101%, 0);
   transition: all 0.6s;
-  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
-    translate3d(0, -101%, 0);
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -101%, 0);
   -webkit-transition: all 0.6s;
 }
 .team-box-2:hover .team-member-img:after {
-  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
-    translate3d(0, 101%, 0);
-  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
-    translate3d(0, 101%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 101%, 0);
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 101%, 0);
 }
 .team-member-img:after {
   height: 100%;
@@ -1221,7 +1222,7 @@ _______________________________________________________*/
   top: 0;
   position: absolute;
   width: 100%;
-  content: "";
+  content: '';
 }
 /*----- Team tow Section End -----*/
 
@@ -1291,7 +1292,7 @@ _______________________________________________________*/
 }
 .accordion-faq-title:before,
 .accordion-faq-title:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 15px;
   right: 40px;
@@ -1342,7 +1343,7 @@ _______________________________________________________*/
   padding: 0px 30px;
 }
 .sub-page-banner ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 6px;
   right: -2px;
@@ -1440,7 +1441,7 @@ _______________________________________________________*/
   position: relative;
 }
 .blog-category ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 17px;
   left: 0px;
@@ -1448,7 +1449,7 @@ _______________________________________________________*/
   height: 1px;
 }
 .blog-category ul li a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .trending-news-box {
   display: flex;
@@ -1486,7 +1487,7 @@ _______________________________________________________*/
   padding: 0px 4px;
 }
 .blog-tags ul li a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: block;
   padding: 5px 14px;
   border-radius: 5px;
@@ -1497,7 +1498,7 @@ _______________________________________________________*/
   border-bottom: 1px solid;
 }
 .archives ul li a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: block;
   padding: 12px 15px;
   position: relative;
@@ -1506,7 +1507,7 @@ _______________________________________________________*/
   padding-top: 0;
 }
 .archives ul li a:before {
-  content: "\f105";
+  content: '\f105';
   font-family: fontawesome;
   position: absolute;
   left: 0;
@@ -1521,7 +1522,7 @@ _______________________________________________________*/
 }
 .blog-list-title {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -1537,7 +1538,7 @@ _______________________________________________________*/
   padding-left: 0;
 }
 .blog-list-content ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 8px;
   right: 0;
@@ -1589,7 +1590,7 @@ _______________________________________________________*/
   padding-left: 0;
 }
 .blog-detail-content ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 8px;
   right: 0;
@@ -1601,7 +1602,7 @@ _______________________________________________________*/
 }
 .blog-detail-content h2 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 15px;
 }
 .blog-detail-content p {
@@ -1691,14 +1692,14 @@ _______________________________________________________*/
 }
 .comment-date {
   font-size: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .comment-des {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .comment-reply {
   font-size: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: inline-block;
   padding: 6px 19px;
   border-radius: 5px;
@@ -1761,7 +1762,7 @@ _______________________________________________________*/
 }
 .roadmap-center-line:before,
 .roadmap-center-line:after {
-  content: "";
+  content: '';
   position: absolute;
   top: -15px;
   left: -7px;
@@ -1791,7 +1792,7 @@ _______________________________________________________*/
 }
 .roadmap-date {
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-bottom: 8px;
 }
 .roadmap-content-box:nth-child(2n + 0) .roadmap-main-content {
@@ -1800,7 +1801,7 @@ _______________________________________________________*/
   margin-left: 0;
 }
 .roadmap-main-content:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: -120px;
@@ -1819,7 +1820,7 @@ _______________________________________________________*/
   border-radius: 100%;
 }
 .roadmap-small-round:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1867,7 +1868,7 @@ _______________________________________________________*/
   padding-top: 40px;
 }
 .contact-detail li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   display: flex;
   width: 100%;
@@ -1912,7 +1913,7 @@ _______________________________________________________*/
   padding-bottom: 20px;
 }
 .information-token li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 10px 0px;
   position: relative;
 }
@@ -1967,14 +1968,14 @@ _______________________________________________________*/
 }
 .token-slide-info {
   font-size: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   padding-bottom: 10px;
   display: block;
   position: relative;
 }
 .token-slide-info:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -2043,15 +2044,15 @@ footer.bg-pattern {
 }
 .footer-icon ul li a {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   line-height: 60px;
   text-align: center;
   border-radius: 100%;
   font-size: 16px;
 }
 .footer-icon ul li a i {
-  line-height: 60px;
+  line-height: 50px;
 }
 .footer-link ul {
   display: inline-block;
@@ -2109,7 +2110,7 @@ footer.bg-pattern {
   padding-right: 0;
 }
 .copyright ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 7px;
   right: 0;
@@ -2159,17 +2160,29 @@ footer.bg-pattern {
 }
 
 .card.big-card {
-  background: url("../images/img-bg-big-card.jpg") center no-repeat #fff;
+  background: url('../images/img-bg-big-card.jpg') center no-repeat #fff;
   background-size: cover;
 }
 
+.card.big-card ul,
+.card.card-1 ul,
+.card.card-2 ul {
+  padding-left: 20px;
+}
+
+.card.big-card ul li,
+.card.card-1 ul li,
+.card.card-2 ul li {
+  list-style-type: disc;
+}
+
 .card.card-1 {
-  background: url("../images/img-bg-card-01.png") center no-repeat #fff;
+  background: url('../images/img-bg-card-01.png') center no-repeat #fff;
   background-size: cover;
 }
 
 .card.card-2 {
-  background: url("../images/img-bg-card-02.png") center no-repeat #fff;
+  background: url('../images/img-bg-card-02.png') center no-repeat #fff;
   background-size: cover;
 }
 
@@ -2178,7 +2191,7 @@ ul.roadmap {
 }
 
 ul.roadmap li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #e1b77e; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
