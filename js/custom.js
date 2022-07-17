@@ -266,7 +266,3 @@ $(function () {
   }
   /* -------- Coins Progress End --------*/
 });
-
-$('.app-button').click(function () {
-  Swal.fire('Coming soon', 'Our web app is under construction. Please come back later.', 'warning');
-});
